@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 
 @Injectable({ providedIn: 'root' })
 export class ApiService {
-  baseUrl = 'http://localhost:5000/api';
+  baseUrl = 'https://cloudproject-7drx.onrender.com/api';
 
   constructor(private http: HttpClient, private router: Router) {
     if (typeof window !== 'undefined') {
