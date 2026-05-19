@@ -1,0 +1,6 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'font-awesome/css/font-awesome.min.css';
+body { transition: background-color 0.3s, color 0.3s; }
+body.dark-mode { background-color: #212529; color: #f8f9fa; }
+body.dark-mode .card { background-color: #343a40; border-color: #495057; }
+body.dark-mode .navbar { background-color: #121416 !important; }
